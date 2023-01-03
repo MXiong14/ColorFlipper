@@ -18,6 +18,9 @@ btn.addEventListener('click', function(){
     document.body.style.backgroundColor = hexColor;
 });
 
+// function that gets a random number
+// math.floor() method rounds down to the nearest integer. This allows us to get whole numbers only.
+// math.random() method will return a random whhole number between 0 and the length of the colors array, which is 3.
 function getRandomNumber() {
     return Math.floor(Math.random() * hex.length);
 };
