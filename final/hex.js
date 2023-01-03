@@ -7,7 +7,9 @@ btn.addEventListener('click', function(){
     // i = 0 sets a variable before the loop starts. 
     // i < 6 defines the condition for the loop to run (i must be less than 6). 
     // i++ increases the value each time the code of block in the loop as been executed.  
-
+    // color will change to whatever random hexColor that is selected
+    // backgroundColor will also be set the hexColor that is selected
+    
     let hexColor = "#";
         for (let i = 0; i < 6; i++) {
             hexColor += hex[getRandomNumber()];
